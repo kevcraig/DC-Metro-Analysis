@@ -1,0 +1,563 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2021-04-01">
+    <creator>NetworkX 2.4</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="degree" type="long" />
+    </attributes>
+    <nodes>
+      <node id="Metro Center" label="Metro Center">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="McPherson Square" label="McPherson Square">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Farragut West" label="Farragut West">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Foggy Bottom-GWU" label="Foggy Bottom-GWU">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Rosslyn" label="Rosslyn">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Arlington Cemetery" label="Arlington Cemetery">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Pentagon" label="Pentagon">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Pentagon City" label="Pentagon City">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Crystal City" label="Crystal City">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Ronald Reagan Washington National Airport" label="Ronald Reagan Washington National Airport">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Braddock Road" label="Braddock Road">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="King St-Old Town" label="King St-Old Town">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Federal Triangle" label="Federal Triangle">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Smithsonian" label="Smithsonian">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="L'Enfant Plaza" label="L'Enfant Plaza">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Federal Center SW" label="Federal Center SW">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Capitol South" label="Capitol South">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Eastern Market" label="Eastern Market">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Potomac Ave" label="Potomac Ave">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Stadium-Armory" label="Stadium-Armory">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Benning Road" label="Benning Road">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Capitol Heights" label="Capitol Heights">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Addison Road-Seat Pleasant" label="Addison Road-Seat Pleasant">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Morgan Boulevard" label="Morgan Boulevard">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Largo Town Center" label="Largo Town Center">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Van Dorn Street" label="Van Dorn Street">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Franconia-Springfield" label="Franconia-Springfield">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Mt Vernon Sq 7th St-Convention Center" label="Mt Vernon Sq 7th St-Convention Center">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Shaw-Howard U" label="Shaw-Howard U">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="U Street/African-Amer Civil War Memorial/Cardozo" label="U Street/African-Amer Civil War Memorial/Cardozo">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Columbia Heights" label="Columbia Heights">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Georgia Ave-Petworth" label="Georgia Ave-Petworth">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Fort Totten" label="Fort Totten">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="West Hyattsville" label="West Hyattsville">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Prince George's Plaza" label="Prince George's Plaza">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="College Park-U of Md" label="College Park-U of Md">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Greenbelt" label="Greenbelt">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Gallery Pl-Chinatown" label="Gallery Pl-Chinatown">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Archives-Navy Memorial-Penn Quarter" label="Archives-Navy Memorial-Penn Quarter">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Waterfront" label="Waterfront">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Navy Yard-Ballpark" label="Navy Yard-Ballpark">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Anacostia" label="Anacostia">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Congress Heights" label="Congress Heights">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Southern Avenue" label="Southern Avenue">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Naylor Road" label="Naylor Road">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Suitland" label="Suitland">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Branch Ave" label="Branch Ave">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Minnesota Ave" label="Minnesota Ave">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Deanwood" label="Deanwood">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Cheverly" label="Cheverly">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Landover" label="Landover">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="New Carrollton" label="New Carrollton">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Court House" label="Court House">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Clarendon" label="Clarendon">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Virginia Square-GMU" label="Virginia Square-GMU">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Ballston-MU" label="Ballston-MU">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="East Falls Church" label="East Falls Church">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="West Falls Church-VT/UVA" label="West Falls Church-VT/UVA">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Dunn Loring-Merrifield" label="Dunn Loring-Merrifield">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Vienna/Fairfax-GMU" label="Vienna/Fairfax-GMU">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Farragut North" label="Farragut North">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Dupont Circle" label="Dupont Circle">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Woodley Park-Zoo/Adams Morgan" label="Woodley Park-Zoo/Adams Morgan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Cleveland Park" label="Cleveland Park">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Van Ness-UDC" label="Van Ness-UDC">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Tenleytown-AU" label="Tenleytown-AU">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Friendship Heights" label="Friendship Heights">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Bethesda" label="Bethesda">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Medical Center" label="Medical Center">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Grosvenor-Strathmore" label="Grosvenor-Strathmore">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="White Flint" label="White Flint">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Twinbrook" label="Twinbrook">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Rockville" label="Rockville">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Shady Grove" label="Shady Grove">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Judiciary Square" label="Judiciary Square">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Union Station" label="Union Station">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Rhode Island Ave-Brentwood" label="Rhode Island Ave-Brentwood">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Brookland-CUA" label="Brookland-CUA">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Takoma" label="Takoma">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Silver Spring" label="Silver Spring">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Forest Glen" label="Forest Glen">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Wheaton" label="Wheaton">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Glenmont" label="Glenmont">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="NoMa-Gallaudet U" label="NoMa-Gallaudet U">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="McLean" label="McLean">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Tysons Corner" label="Tysons Corner">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Greensboro" label="Greensboro">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Spring Hill" label="Spring Hill">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Wiehle-Reston East" label="Wiehle-Reston East">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Eisenhower Avenue" label="Eisenhower Avenue">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Huntington" label="Huntington">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Metro Center" target="McPherson Square" />
+      <edge id="1" source="Metro Center" target="Federal Triangle" />
+      <edge id="2" source="Metro Center" target="Farragut North" />
+      <edge id="3" source="Metro Center" target="Gallery Pl-Chinatown" />
+      <edge id="4" source="McPherson Square" target="Farragut West" />
+      <edge id="5" source="Farragut West" target="Foggy Bottom-GWU" />
+      <edge id="6" source="Foggy Bottom-GWU" target="Rosslyn" />
+      <edge id="7" source="Rosslyn" target="Arlington Cemetery" />
+      <edge id="8" source="Rosslyn" target="Court House" />
+      <edge id="9" source="Arlington Cemetery" target="Pentagon" />
+      <edge id="10" source="Pentagon" target="Pentagon City" />
+      <edge id="11" source="Pentagon" target="L'Enfant Plaza" />
+      <edge id="12" source="Pentagon City" target="Crystal City" />
+      <edge id="13" source="Crystal City" target="Ronald Reagan Washington National Airport" />
+      <edge id="14" source="Ronald Reagan Washington National Airport" target="Braddock Road" />
+      <edge id="15" source="Braddock Road" target="King St-Old Town" />
+      <edge id="16" source="King St-Old Town" target="Van Dorn Street" />
+      <edge id="17" source="King St-Old Town" target="Eisenhower Avenue" />
+      <edge id="18" source="Federal Triangle" target="Smithsonian" />
+      <edge id="19" source="Smithsonian" target="L'Enfant Plaza" />
+      <edge id="20" source="L'Enfant Plaza" target="Federal Center SW" />
+      <edge id="21" source="L'Enfant Plaza" target="Archives-Navy Memorial-Penn Quarter" />
+      <edge id="22" source="L'Enfant Plaza" target="Waterfront" />
+      <edge id="23" source="Federal Center SW" target="Capitol South" />
+      <edge id="24" source="Capitol South" target="Eastern Market" />
+      <edge id="25" source="Eastern Market" target="Potomac Ave" />
+      <edge id="26" source="Potomac Ave" target="Stadium-Armory" />
+      <edge id="27" source="Stadium-Armory" target="Benning Road" />
+      <edge id="28" source="Stadium-Armory" target="Minnesota Ave" />
+      <edge id="29" source="Benning Road" target="Capitol Heights" />
+      <edge id="30" source="Capitol Heights" target="Addison Road-Seat Pleasant" />
+      <edge id="31" source="Addison Road-Seat Pleasant" target="Morgan Boulevard" />
+      <edge id="32" source="Morgan Boulevard" target="Largo Town Center" />
+      <edge id="33" source="Van Dorn Street" target="Franconia-Springfield" />
+      <edge id="34" source="Mt Vernon Sq 7th St-Convention Center" target="Gallery Pl-Chinatown" />
+      <edge id="35" source="Mt Vernon Sq 7th St-Convention Center" target="Shaw-Howard U" />
+      <edge id="36" source="Shaw-Howard U" target="U Street/African-Amer Civil War Memorial/Cardozo" />
+      <edge id="37" source="U Street/African-Amer Civil War Memorial/Cardozo" target="Columbia Heights" />
+      <edge id="38" source="Columbia Heights" target="Georgia Ave-Petworth" />
+      <edge id="39" source="Georgia Ave-Petworth" target="Fort Totten" />
+      <edge id="40" source="Fort Totten" target="West Hyattsville" />
+      <edge id="41" source="Fort Totten" target="Brookland-CUA" />
+      <edge id="42" source="Fort Totten" target="Takoma" />
+      <edge id="43" source="West Hyattsville" target="Prince George's Plaza" />
+      <edge id="44" source="Prince George's Plaza" target="College Park-U of Md" />
+      <edge id="45" source="College Park-U of Md" target="Greenbelt" />
+      <edge id="46" source="Gallery Pl-Chinatown" target="Archives-Navy Memorial-Penn Quarter" />
+      <edge id="47" source="Gallery Pl-Chinatown" target="Judiciary Square" />
+      <edge id="48" source="Waterfront" target="Navy Yard-Ballpark" />
+      <edge id="49" source="Navy Yard-Ballpark" target="Anacostia" />
+      <edge id="50" source="Anacostia" target="Congress Heights" />
+      <edge id="51" source="Congress Heights" target="Southern Avenue" />
+      <edge id="52" source="Southern Avenue" target="Naylor Road" />
+      <edge id="53" source="Naylor Road" target="Suitland" />
+      <edge id="54" source="Suitland" target="Branch Ave" />
+      <edge id="55" source="Minnesota Ave" target="Deanwood" />
+      <edge id="56" source="Deanwood" target="Cheverly" />
+      <edge id="57" source="Cheverly" target="Landover" />
+      <edge id="58" source="Landover" target="New Carrollton" />
+      <edge id="59" source="Court House" target="Clarendon" />
+      <edge id="60" source="Clarendon" target="Virginia Square-GMU" />
+      <edge id="61" source="Virginia Square-GMU" target="Ballston-MU" />
+      <edge id="62" source="Ballston-MU" target="East Falls Church" />
+      <edge id="63" source="East Falls Church" target="West Falls Church-VT/UVA" />
+      <edge id="64" source="East Falls Church" target="McLean" />
+      <edge id="65" source="West Falls Church-VT/UVA" target="Dunn Loring-Merrifield" />
+      <edge id="66" source="Dunn Loring-Merrifield" target="Vienna/Fairfax-GMU" />
+      <edge id="67" source="Farragut North" target="Dupont Circle" />
+      <edge id="68" source="Dupont Circle" target="Woodley Park-Zoo/Adams Morgan" />
+      <edge id="69" source="Woodley Park-Zoo/Adams Morgan" target="Cleveland Park" />
+      <edge id="70" source="Cleveland Park" target="Van Ness-UDC" />
+      <edge id="71" source="Van Ness-UDC" target="Tenleytown-AU" />
+      <edge id="72" source="Tenleytown-AU" target="Friendship Heights" />
+      <edge id="73" source="Friendship Heights" target="Bethesda" />
+      <edge id="74" source="Bethesda" target="Medical Center" />
+      <edge id="75" source="Medical Center" target="Grosvenor-Strathmore" />
+      <edge id="76" source="Grosvenor-Strathmore" target="White Flint" />
+      <edge id="77" source="White Flint" target="Twinbrook" />
+      <edge id="78" source="Twinbrook" target="Rockville" />
+      <edge id="79" source="Rockville" target="Shady Grove" />
+      <edge id="80" source="Judiciary Square" target="Union Station" />
+      <edge id="81" source="Union Station" target="NoMa-Gallaudet U" />
+      <edge id="82" source="Rhode Island Ave-Brentwood" target="NoMa-Gallaudet U" />
+      <edge id="83" source="Rhode Island Ave-Brentwood" target="Brookland-CUA" />
+      <edge id="84" source="Takoma" target="Silver Spring" />
+      <edge id="85" source="Silver Spring" target="Forest Glen" />
+      <edge id="86" source="Forest Glen" target="Wheaton" />
+      <edge id="87" source="Wheaton" target="Glenmont" />
+      <edge id="88" source="McLean" target="Tysons Corner" />
+      <edge id="89" source="Tysons Corner" target="Greensboro" />
+      <edge id="90" source="Greensboro" target="Spring Hill" />
+      <edge id="91" source="Spring Hill" target="Wiehle-Reston East" />
+      <edge id="92" source="Eisenhower Avenue" target="Huntington" />
+    </edges>
+  </graph>
+</gexf>
