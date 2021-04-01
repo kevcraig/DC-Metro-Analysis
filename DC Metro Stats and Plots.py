@@ -13,16 +13,13 @@ from operator import itemgetter
 import geopandas as gpd 
 import json
 from networkx.readwrite import json_graph
-
-
-# plotting
 from cartopy import crs
 import geoviews as gv
 from bokeh.models import HoverTool
 gv.extension('bokeh')
 
 #%% Import metro data that we manually organized
-df_stations2 = pd.read_csv('/Users/kevincraig/Google Drive/Personal/DC Metro/Metro Project/network_order_vf.csv') # this is the file i transformed in excel
+df_stations2 = pd.read_csv('Datasets/network_order_vf.csv') # manually ordered version of network_order.csv
 
 #%% Create graph nodes and edges
 df_stations2['lag_stop'] = df_stations2.sort_values(by = ['Color', 'Stop']).groupby(['Color'])['Name'].shift(1) # previous stop
@@ -99,13 +96,13 @@ print("Top 20 nodes by closeness centrality:")
 for b in sorted_closeness[:20]:
     print(b)
     
-#%% Write out data for visual analysis through gephi and d3\
+#%% Write out data for visual analysis through gephi and d3
 # gephi output
-nx.write_gexf(G, 'wmata_network.gexf')
+nx.write_gexf(G, 'Datasets/wmata_network.gexf')
 
 # json output for D3
 json_data = json_graph.node_link_data(G)
-with open('wmata_network.json', 'w') as outfile:
+with open('Datasets/wmata_network.json', 'w') as outfile:
     json.dump(json_data, outfile)
 
 #%% Metro plotting

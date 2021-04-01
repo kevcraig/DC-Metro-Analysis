@@ -83,4 +83,4 @@ for i in line_data:
     
 #%% I/O for metro data
 # write out data so we can order the stops manually. There is no indicator in the dataset for station order, so we need to do this outselves. I also include this file in the repo
-df_stations.to_csv('/Users/kevincraig/Google Drive/Personal/DC Metro/Metro Project/network_order.csv')
+df_stations.to_csv('Datasets/network_order.csv')
